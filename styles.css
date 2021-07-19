@@ -1,0 +1,41 @@
+body {
+    background-color: #f6f6f6;
+    background-image: url(images/music.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Roboto;
+}
+/* .container {
+    overflow: hidden;
+} */
+
+table {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+    background-color: transparent;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+.title {
+    font-size: 1.7em;
+    color: #fff;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8), 1px 1px 0px rgba(0, 0, 0, 0.4), 1px 1px 0px rgba(0, 0, 0, 0.2);
+    font-weight: 500;
+}
+.info {
+    font-size: 80px;
+}
+tr.info td {
+    padding: .2em;
+}
+.time {
+    color: #000;
+}
