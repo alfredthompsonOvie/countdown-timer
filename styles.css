@@ -27,15 +27,52 @@ table {
 .title {
     font-size: 1.7em;
     color: #fff;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8), 1px 1px 0px rgba(0, 0, 0, 0.4), 1px 1px 0px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8), 1px 1px 0px rgba(0, 0, 0, 0.4),
+        1px 1px 0px rgba(0, 0, 0, 0.2);
     font-weight: 500;
 }
 .info {
     font-size: 80px;
 }
 tr.info td {
-    padding: .2em;
+    padding: 0.2em;
 }
 .time {
     color: #000;
+}
+@media (max-width: 760px) {
+    table {
+        width: 350px;
+    }
+    .title {
+        font-size: 1.5em;
+        color: #fff;
+        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8),
+            1px 1px 0px rgba(0, 0, 0, 0.4), 1px 1px 0px rgba(0, 0, 0, 0.2);
+        font-weight: 300;
+    }
+    .info {
+        font-size: 40px;
+    }
+    tr.info td {
+        padding: 0.2em;
+    }
+}
+@media (max-width: 450px) {
+    table {
+        width: 270px;
+    }
+    .title {
+        font-size: 1.3em;
+        color: #fff;
+        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8),
+            1px 1px 0px rgba(0, 0, 0, 0.4), 1px 1px 0px rgba(0, 0, 0, 0.2);
+        font-weight: 300;
+    }
+    .info {
+        font-size: 20px;
+    }
+    tr.info td {
+        padding: 0.2em;
+    }
 }
